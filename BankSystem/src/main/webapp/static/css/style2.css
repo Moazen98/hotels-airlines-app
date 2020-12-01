@@ -1,0 +1,15 @@
+.weather-contanier{
+	background: #ccc;
+	text-align: center;
+}
+
+.temp{
+	font-size: 60px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.weather{
+	font-size: 22px;
+	margin: 0;
+}

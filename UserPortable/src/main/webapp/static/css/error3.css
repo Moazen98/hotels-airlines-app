@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+body
+{
+    background-image: url('../webDesign/401-error-wordpress-featured-image.jpg');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 1300px;
+    padding:0;
+    margin:0;
+}
+
+.controller 
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.controller a
+{
+    position: absolute;
+    bottom: 15px;
+    left: 53%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 10px 30px; 
+    font-weight: bold;
+    color: rgb(254,164,24);
+}

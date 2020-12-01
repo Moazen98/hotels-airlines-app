@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(0,0,0,0.8);
+}
+.payment
+{
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 15;
+    background-image: url(../img/city2.jpg);
+    background-size: 100% 100%;
+}
+.payment form
+{
+   height: 80vh; 
+}
+.payment form .g-info
+{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: flex;
+}
+
+.payment form .g-info .fields
+{
+    padding: 35px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column
+}
+
+
+
+.payment form .g-info .fields h2
+{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.section h3
+{
+    text-align: center
+}
+
+.section input
+{
+    display: block;
+    padding: 8px;
+    margin: 0px auto 25px;
+    width: 70%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #777;
+}
+
+.payment form .g-info .fields p
+{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.payment form .g-info .fields input[type="submit"]
+{
+    background-color: #69b0bb;
+    padding: 10px 0px;
+    width: 60%;
+    margin: 15px auto;
+    border: none;
+    border-radius: 0px;
+    color: white;
+/*    font-family: 'Baloo Bhaina 2', cursive;*/
+    font-size: 18px;
+    cursor: pointer;
+    display: block
+}
+
+
+.payment form .img
+{
+    width: 40%;
+    height: 100%;
+}
+
+.payment form .img img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.payment form .pay-info
+{
+    z-index: -5;
+}
+
+.payment span
+{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    font-size: 20px;
+    background-color: #2dc997;
+    color: #fff;
+    padding: 10px;
+    font-family: sans-serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 20;
+}
+

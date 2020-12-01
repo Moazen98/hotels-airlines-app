@@ -1,0 +1,65 @@
+
+body{
+margin: 0;
+padding :0;	
+
+}
+
+
+.wapper
+{
+	padding:0;
+	margin: 0;
+	background: url("626.jpg")	;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+h1
+{
+
+	font-size: 60px;
+	font-weight: bold;
+	font-style: arial;
+	text-align: center;
+	color: #333
+}
+
+
+.center
+{
+	position: absolute;
+	top: 50px;
+	left :50px;
+	transform: (-50%,-50%);	
+}
+
+ul
+{
+	margin: 0;
+    padding :0;	
+}
+
+
+
+ul li
+{
+	list-style: none;
+	border: 2px solid #000;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 30px;
+	border-radius: 15px;
+	font-family: arial;
+}
+
+
+ul li a
+{
+	text-decoration: none;
+	padding: 15px 35px;
+	display: block;
+	text-align: center;
+	color:black;
+}

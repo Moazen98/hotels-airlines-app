@@ -1,0 +1,9 @@
+#security:
+#  oauth2:
+#    client:
+#      clientId: UserId  #here we must give the client id that we define it in server side
+#      clientSecret: UserSecret  #here we must give the client secert that we define it in server side
+#      access-token-validity-seconds: 3600  #my token validate for one hour
+#      scope: READ,WRITE#    authorization:#      check-token-access: permitAll
+#  user:#    name: mezo98#    password: 123
+#    role: ADMIN,USER

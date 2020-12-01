@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(4618.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container:text-center
+{
+	background: url("4618.jpg");
+	background-position: center;
+	background-size: cover;
+
+}

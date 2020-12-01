@@ -1,0 +1,20 @@
+server:
+  port: 8082  servlet:    context-path: /ui    session:      cookie:        name: UISESSION
+      #here i can give any name for the cookie
+
+
+security:
+    #disables the default secuirty beascause we config one for us
+   oauth2:
+    client:
+      clientId: ClientId  #here we must give the client id that we define it in server side
+      clientSecret: secret  #here we must give the client secert that we define it in server side
+      accessTokenUri: http://localhost:8083/auth/oauth/token #the server side were we define the token to make user take token
+      userAuthorizationUri: http://localhost:8083/auth/oauth/authorize #were the auth in server side
+    resource:
+      userInfoUri: http://localhost:8083/auth/rest/hello/principal   #the end point in the server
+
+
+spring:
+  thymeleaf:
+    cache: false

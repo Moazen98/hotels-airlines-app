@@ -1,0 +1,13 @@
+server:  port: 9090spring:  application:    name: Ribbon
+load:
+  ribbon:
+    eureka:
+      enabled: false
+      listOfServers: localhost:8087,localhost:8088,localhost:8089
+      ServerListRefreshInterval: 2000
+      
+      management.endpoints.web.exposure.include: "*"
+management.endpoint.health.enabled: "true"
+management.endpoint.restart.enabled: "true"
+management.endpoint.info.enabled: "true"
+

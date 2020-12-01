@@ -1,0 +1,245 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.total
+{
+   height: 662px;
+   width: 100%;
+   background-color: rgba(30,30,30,0.7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body
+{
+	width: 100%;
+    background-image: url(../img/city2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.container
+{
+	width: 900px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: rgb(10,10,10);
+	overflow: hidden;
+	border-radius: 25px;
+	box-shadow: 0 0 15px rgba(0,0,0,3);
+	z-index: 1;
+}
+
+.left
+{
+   float: left;
+}
+
+
+/* Start image section */
+
+.image
+{
+	width: 50%;
+	height: 100%;
+}
+
+.image img
+{
+	width: 100%;
+	height: 100%;
+}
+
+/* End image section */
+
+
+/* Start form section */
+
+input 
+{
+	border:0;
+}
+
+
+
+.form
+{
+	width: 50%;
+	height: 100%;
+}
+
+
+
+.title
+{
+	width: 100%;
+	height: 17%;
+	/*background-color: #ff0;*/
+	text-align: center;
+}
+
+.title h2
+{
+    padding-top: 40px;
+    font-size: 30px;
+	font-weight: bolder;
+	color: #fff;
+}
+
+
+.content
+{
+	width: 100%;
+	height: 83%;
+	background-color: transparent;
+	position: relative;
+	
+}
+
+form
+{
+	width: 100%;
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.links
+{
+	width:100%;
+	height: 15%;
+	display:flex;
+	flex-direction: column;
+	padding : 10px 0px;
+	text-align: center;
+	
+}
+
+.links a {
+	font-size: 15px;
+	color: #ccc;
+	margin-top: 2px;
+}
+
+input
+{
+	padding: 12px;
+	border-bottom: 1px solid rgba(220,220,220,0.5);
+	background-color: inherit;
+	width: 80%;
+	color: #ccc;
+}
+
+input[type='submit']
+{
+	width: 60%;
+}
+
+input::placeholder,input:focus,input[type='submit']
+{
+	color: #ccc;
+	font-size: 16px;
+}
+
+form p
+{
+    padding: 12px;
+    color :#fff;
+    text-align: left;
+    display: none;
+    width: 80%;
+}
+
+
+
+
+
+/*
+.sub
+{
+	width: 80%;
+	height: 65%;
+}
+
+.log,.username,.password,.next,.sing
+{
+    width: 100%;
+	height: 20%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.log h2
+{
+	color: #69b0bb;
+	font-size: 45px;
+
+
+}
+
+
+input placeholder
+{
+
+}
+
+.username input , .password input
+{
+	width: 80%;
+	padding: 18px;
+	font-size: 20px;
+	color: #bbb;
+    font-weight: bold;
+	border-bottom: 2px solid #888;
+	box-shadow: 5px 5px 8px rgba(100,100,100,1);
+}
+
+
+.next
+{
+	text-align: center;
+	
+}
+
+.next input
+{
+	width: 90%;
+	padding: 14px;
+	border-radius: 15px;
+	color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#69b0bb,#79b2bb,#69b0ab);
+}
+
+.sing p
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sing a 
+{
+	color: #69b0bb;
+}
+
+input:focus , input:focus::placeholder 
+  {
+  	color: #69b0bb;
+  }
+
+  input:focus 
+  {
+  	outline: 0;
+  }
+*/
+/* End form section */

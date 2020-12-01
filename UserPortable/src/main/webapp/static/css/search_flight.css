@@ -1,0 +1,264 @@
+@charset "ISO-8859-1";
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.clear
+{
+	clear: both;
+}
+
+body
+{
+	width: 100%;
+	height: 1050px;
+	background-image: url('../img/1new.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.all
+{
+	width: 100%;
+	height: 88%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .first
+{
+	height: 180px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.container .blue
+{
+	padding-top: 17px;
+	height: 244px;
+	background-color: rgba(0,0,0,0.9);
+
+}
+
+.container .last
+{
+	height: 276px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.title
+{
+	height: 15%;
+	font-size: 50px;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+    
+}
+
+
+.title p 
+{
+	padding-top: 60px;
+}
+.container
+{
+   width: 50%;
+   height: 800px;
+}
+
+.container .trip-type
+{
+   background-color:#69b0bb;
+   height: 13%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.container .trip-type .content
+{
+   margin: 0px auto;  
+}
+
+.container .trip-type .content ul
+{
+	list-style: none;
+    overflow: hidden;
+}
+
+
+.container .trip-type .content ul li
+{
+	
+	float: left;
+    padding: 22px;
+    
+}
+
+.container .trip-type ul li a
+{ 
+
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase; 	
+}
+/*end trip type*/
+
+
+
+/* Start first section*/
+
+.container .first .info
+{
+	  
+	
+
+}
+
+.container .last .info,
+.container .blue .info,
+.container .first .info{
+
+	float: left;
+	width: 50%;
+    height: 100%;
+}
+
+
+.container .last .info .sub,
+.container .blue .info .sub,
+.container  .first .info .sub
+{
+	margin: 20px auto;
+	width: 90%;
+	
+}
+
+
+.container .blue .info .sub .date label,
+.container .blue .info .sub .from label,
+.container .first .info .sub .degree label,
+.container .last .info .sub .number label,
+.container .first .info .sub .date label,
+.container .first .info .sub .from label
+{
+    font-size: 18px;
+    color:#fff;
+    margin: 8px auto;
+    font-weight: bold;
+}
+
+
+.container .blue .info .sub .date,
+.container .first .info .sub .date
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	float: left;
+}
+
+
+.container .blue .info .sub .from input,
+.container .first .info .sub .from input
+{
+	width: 95%;
+    padding: 10px;
+    margin: 5px auto 8px;
+    border: 1px solid #fff;
+}
+
+.container .blue .info .sub .date input,
+.container .first .info .sub .date input
+{
+    padding: 7px;
+    width: 85%;
+    margin: 5px auto 8px;
+    border: 1px solid #fff;
+}
+
+
+/*start section number two*/
+
+select
+{
+	padding: 7px;
+    width: 85%;
+    margin: 5px auto 8px;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+option
+{
+	padding :20px;
+
+}
+
+.container .info .sub .degree
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+
+/*end section number two*/
+
+
+/* end first section*/
+
+
+
+
+
+
+.container .info .sub .number
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	float: left;
+}
+
+.container .info .sub .number input
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 80%;
+	padding: 8px;
+	border: 1px solid #fff;
+}
+
+
+
+.container .info .sub .add_remove button
+{
+	font-size: 18px;
+	background:#69b0bb;
+	padding: 8px 15px ;
+	color: #fff;
+	border: 1px solid #69b0bb;
+	margin-top: 40px;
+	
+}
+
+.container .info .sub>input
+{
+	font-size: 18px;
+	background:#69b0bb;
+	padding: 10px 20px ;
+	color: #fff;
+	border: 1px solid #69b0bb;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
